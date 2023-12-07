@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogPoodle"
+    android:background="@drawable/dog3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anjing Poodle adalah ras anjing yang terkenal dengan mantel bulu yang khas dan penampilan yang elegan. Mereka memiliki tubuh yang proporsional, dengan tinggi bahu antara 25-60 cm tergantung pada ukuran varietas Poodle. Salah satu ciri khas Poodle adalah bulu mereka yang tebal, keriting, dan tidak rontok, yang membuat mereka dianggap sebagai salah satu ras anjing hipoalergenik.
+"
+            android:layout_marginTop="360dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Merawat"
+            android:textStyle="bold"
+            android:layout_marginTop="565dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Makanan yang Sehat dan Berkualitas Tinggi"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Tetapkan jadwal makan teratur untuk si Anjing"
+            android:layout_marginTop="630dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Latihan Fisik Untuk Melatih Cerdas dan Keaktivan"
+            android:layout_marginTop="660dp"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anjing Poodle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/poodle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/ly">
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

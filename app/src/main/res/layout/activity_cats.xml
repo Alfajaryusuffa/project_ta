@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cats"
+    tools:context=".cats"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/british"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/persia"
+            android:layout_marginTop="150dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="200dp"
+            android:src="@drawable/kucinganggora"
+            android:layout_marginTop="150dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/ly_2">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Kucing Anggora"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/orange"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/anggora"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Kucing Persia"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/grey"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/persia"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Kucing British Shorthair"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/orange"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/british"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+

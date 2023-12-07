@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dog"
+    android:background="@drawable/dogs">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/poodle"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/husky"
+            android:layout_marginTop="150dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="200dp"
+            android:src="@drawable/beagle"
+            android:layout_marginTop="150dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/ly_2">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Anjing Beagle"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/orange"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/beagle"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Anjing Husky"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/grey"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/husky"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Anjing Poodle"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:width="500dp"
+                android:backgroundTint="@color/orange"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:id="@+id/poodle"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
